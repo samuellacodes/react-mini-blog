@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import PostList from "./components/PostList";
 
 function App() {
   return (
@@ -6,8 +7,7 @@ function App() {
     <Header />
 
     <main>
-      <h2>Welcome to Dev Insights</h2>
-      <p>Quick tips, insights, and updates about web development.</p>
+      <PostList />
     </main>
     </>
   );
